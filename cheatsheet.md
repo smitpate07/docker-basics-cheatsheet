@@ -34,7 +34,7 @@
 | `docker kill <container_id>` | Forcefully stops a running container.|
 | `docker rm <container_id>` | Removes a specific container.|
 | `docker logs <container_id>` | Fetches the logs of a container. |
-| `docker exec -it <container_id> /bin/bash` | Executes a command inside a running container. This command opens a shell inside the container.|
+| `docker exec -it <container_id> /bin/sh` | Executes a command inside a running container. This command opens a shell inside the container.|
 | `docker port <container_id>` | Lists the port mappings for a container.|
 
 ---
