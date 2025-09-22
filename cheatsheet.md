@@ -10,6 +10,7 @@
 ---
 
 ## 📦 Image Management
+### Docker images are templates used to create containers.
 | Command | Description |
 |---------|-------------|
 | `docker pull <image_name>` | Pulls an image from a registry to your local machine. |
@@ -21,6 +22,7 @@
 ---
 
 ## 🚀 Container Management
+### Containers are runnable instances of an image.
 | Command | Description |
 |---------|-------------|
 | `docker run -it <image_name>` | Runs a new container. `-it` starts it interactively. |
@@ -38,6 +40,7 @@
 ---
 
 ## ⚙️ Docker Compose
+### Docker Compose is used to define and run multi-container Docker applications.
 | Command | Description |
 |---------|-------------|
 | `docker-compose up` | Builds and starts all services defined in a `docker-compose.yml` file. |
