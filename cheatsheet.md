@@ -28,6 +28,12 @@
 | `docker ps -a` | Lists all containers, including stopped ones. |
 | `docker start <container_id>` | Starts a stopped container. |
 | `docker stop <container_id>` | Stops a running container gracefully. |
+| `docker restart <container_id>` | Restarts a container. |
+| `docker kill <container_id>` | Forcefully stops a running container.|
+| `docker rm <container_id>` | Removes a specific container.|
+| `docker logs <container_id>` | Fetches the logs of a container. |
+| `docker exec -it <container_id> /bin/bash` | Executes a command inside a running container. This command opens a shell inside the container.|
+| `docker port <container_id>` | Lists the port mappings for a container.|
 
 ---
 
