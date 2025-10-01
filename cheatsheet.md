@@ -18,6 +18,7 @@
 | `docker build -t <tag_name> <image_name> .` | Builds an image from a Dockerfile in the current directory. |
 | `docker rmi <image_id>` or `<image_name>` | Removes a specific image from local storage. |
 | `docker image prune` | Removes all unused images. |
+| `docker tag <CURRENT_IMAGE_NAME> <DESIRED_IMAGE_NAME>` | Create New image with desired image name. |
 
 ---
 
